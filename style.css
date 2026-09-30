@@ -1,0 +1,214 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+nav {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+}
+.logo-r {
+  color: #fd6e0a;
+}
+
+/* Hero Start */
+
+.hero-parent-root{
+  background-color: #fff8f3;
+}
+
+.common-btn {
+  background-color: #fd6e0a;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left-p1{
+font-size:25px;
+font-weight: 700px;
+margin-bottom: 2px;
+}
+
+.hero-left h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.hero-left-p2 {
+    font-size: 20px;
+}
+
+.hero-btn {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.shadow-btn{
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fd6e0a;
+    background-color: white;
+    border-color: #fd6e0a;
+    cursor: pointer;
+}
+
+/* <!--hero right--> */
+.hero-right{
+  margin-top: 5px;
+  
+}
+
+/* about me section  */
+.about-parent {
+  padding: 120px;
+  background-color: #fff8f3;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.about-parent h2 {
+  margin-bottom: 15px;
+}
+
+.about-parent .box-parent{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.about-parent .box-parent .box {
+  background-color: #e0d4cc;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+
+/* =======================================
+   What I Do Section Styles 
+   ======================================= */
+
+.skills-section {
+  padding: 80px 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Header styling (Title and paragraph) */
+.skills-header {
+  text-align: center;
+  max-width: 750px; /* 💡 প্যারাগ্রাফের হরিজন্টাল স্পেস পারফেক্ট রাখার জন্য */
+  margin: 0 auto 50px auto;
+}
+
+.skills-header h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #181818;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 20px;
+}
+
+.skills-header p {
+  color: #757575;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Cards Layout Container */
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap; /* 💡 ছোট স্ক্রিনে যেন কার্ডগুলো নিচে নেমে যায় */
+}
+
+/* Single Skill Card Styling */
+.skill-card {
+  flex: 1;
+  min-width: 220px; /* 💡 রেসপনসিভ সেফটি উইডথ */
+  background-color: #ffffff;
+  padding: 30px 24px;
+  border-radius: 8px;
+   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.03);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect for Premium feel */
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* Icon Container */
+.icon-box {
+  height: 50px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.icon-box img {
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Multi-icons row for React/Angular/Vue card */
+.flex-icons {
+  gap: 8px;
+}
+
+.flex-icons img {
+  height: 80%; /* একাধিক ইমেজের সাইজ ব্যালেন্স করার জন্য */
+}
+
+/* Card Typography */
+.skill-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #181818;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 15px;
+}
+
+.skill-card p {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
